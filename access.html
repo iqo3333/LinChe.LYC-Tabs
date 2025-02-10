@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>域名跳转工具</title>
+</head>
+<body>
+    <h3>输入域名跳转工具</h3>
+    <input type="text" id="domainInput" placeholder="例如：google.com 或 https://example.com">
+    <button onclick="redirect()">跳转</button>
+
+    <script>
+        function redirect() {
+            let domain = document.getElementById("domainInput").value;
+            // 检查是否包含协议（http/https）
+            if (!domain.startsWith("http://") && !domain.startsWith("https://")) {
+                domain = "https://" + domain; // 默认添加 HTTPS
+            }
+            window.location.href = domain; // 跳转到目标域名
+        }
+    </script>
+</body>
+</html>
