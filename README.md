@@ -21,6 +21,6 @@
 
 立即使用我们的 域名跳转工具，告别繁琐操作，享受便捷的互联网冲浪体验吧！
 
-📌 访问我的工具"tz.iqo3333.cn" 🔗  
+📌 访问我的工具"https://Jump.iqo3333.cn" 🔗  
 
 © Pro_Pro 2023-2025. All Rights Reserved
