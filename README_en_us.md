@@ -3,7 +3,7 @@
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">简体中文</a> | 
     <b>English</b> | 
-  <a href="README_zh_hk/tw.md">繁体中文</a> | 
+  <a href="README_zh_hk;tw.md">繁体中文</a> | 
 </p>
 <hr>
 Are you still bothered by the clutter of your current tabs? Want to be able to quickly access or search for your target website? Now, I've launched a clean tab to help you do it all!
