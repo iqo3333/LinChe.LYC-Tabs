@@ -1,0 +1,365 @@
+/* 全局样式 */
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, rgb(214, 238, 250), rgb(180, 222, 250), rgb(240, 248, 255));
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* 容器样式（主样式） */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    width: 80vw;            /* 使用相对宽度，适配更多屏幕 */
+    max-width: 500px;       /* 限制最大宽度 */
+    min-width: 280px;       /* 防止横屏时太窄 */
+
+    margin: 40px;           /* 外边距 */
+    box-sizing: border-box;
+    flex-shrink: 0;         /* 防止横屏下被压缩变形 */
+}
+
+/* 横屏优化（视口较矮时的特殊处理） */
+@media screen and (orientation: landscape) and (max-height: 500px) {
+    .container {
+        width: 90vw;
+        min-width: 300px;
+        margin: 20px 10px;
+    }
+
+    .tip-message {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+}
+
+/* 修正全局高度计算问题，兼容移动端横屏 */
+html, body {
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* 标题 */
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* 副标题 */
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* 输入区域 */
+.input-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.engine-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background: white;
+  border: 2px solid #ccc;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.engine-wrapper img {
+  width: 20px;
+  height: 20px;
+}
+
+/* 输入框 */
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+input[type="text"]::placeholder {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 搜索引擎下拉 */
+.engine-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 120px;
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 10;
+}
+
+.engine-dropdown.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.engine-dropdown div {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.engine-dropdown div:hover {
+  background-color: #f0f0f0;
+}
+
+/* 按钮 */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, rgb(180, 222, 250), rgb(120, 190, 250));
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, rgb(150, 210, 250), rgb(90, 170, 240));
+}
+
+/* 提示信息系统 */
+.tip-message {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* 提示信息：可见状态 */
+.tip-message.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* 提示类型 */
+.tip-error {
+  background-color: #fcebea;
+  color: #a94442;
+  border: 1px solid #f5c6cb;
+}
+
+.tip-success {
+  background-color: #e6ffed;
+  color: #2c662d;
+  border: 1px solid #b2f5ca;
+}
+
+.tip-info {
+  background-color: #ebf4ff;
+  color: #2b6cb0;
+  border: 1px solid #c3dafe;
+}
+
+/* 抖动动画 */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+.tip-message.shake {
+  animation: shake 0.4s ease;
+}
+
+/* 底部 */
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInFooter 0.8s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+.footer-right {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.icon-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+  display: block;
+}
+
+.icon-img:hover {
+  transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 版权声明样式 */
+.copyright {
+  font-size: 16px;
+  color: #333;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+/* 动画：容器加载 */
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 动画：底部加载 */
+@keyframes fadeInFooter {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 480px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  select, input[type="text"] {
+    padding: 14px 16px;
+    font-size: 15px;
+  }
+
+  select {
+    background-position: right 14px center;
+    background-size: 20px;
+    padding-right: 44px;
+  }
+
+  button {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+
+  .icon-img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.heart {
+  position: absolute;
+  font-size: 16px;
+  color: red;
+  pointer-events: none;
+  animation: float-up 1s ease-out forwards;
+}
+
+.trail-star {
+  position: absolute;
+  width: 12px;           /* 原本是 6px，放大了一倍 */
+  height: 12px;
+  background: gold;
+  border-radius: 50%;
+  box-shadow: 0 0 8px gold;  /* 增加发光效果 */
+  pointer-events: none;
+  animation: fade-out 0.8s ease-out forwards;
+}
+
+
+/* 爱心上升动画 */
+@keyframes float-up {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-30px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* 拖尾星星淡出动画 */
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
