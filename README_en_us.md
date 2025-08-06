@@ -30,4 +30,4 @@ Use my LynnChe-tab now, say goodbye to tedious operations, and enjoy a convenien
 
 📌 Access my tool "https://tab.iqo3333.cn" 🔗
 
-© LynnChe 2025-Present. All Rights Reserved
+© LynnChe 2023-Present. All Rights Reserved
