@@ -32,8 +32,8 @@
 
 不確定是否能訪問？ 試試連接測試呢！
 
-測速：「https://spdde.iqo3333.cn”
+測速："https://spdde.iqo3333.cn"
 
-備用：“https://iqo3333.github.io/speed”
+備用："https://iqo3333.github.io/speed"
 
 © LynnChe 2023-Present. All Rights Reserved
