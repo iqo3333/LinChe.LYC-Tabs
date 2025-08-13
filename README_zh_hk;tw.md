@@ -3,7 +3,7 @@
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
     <b>🇹🇼繁体中文</b> | 
-  <a href="README_en_us.md"🇺🇸English</a> | 
+  <a href="README_en_us.md">🇺🇸English</a> 
 </p>
 <hr>
 你還在為目前的標籤頁雜亂址而煩惱嗎？ 是否希望能快速訪問或搜索到目標網站？ 現在，我推出了一款簡潔的標籤頁，幫你輕鬆搞定這一切！
