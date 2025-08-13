@@ -30,4 +30,10 @@ Use my LynnChe-tab now, say goodbye to tedious operations, and enjoy a convenien
 
 📌 Access my tool "https://tab.iqo3333.cn" 🔗
 
+Not sure if you can access it? Try the connection test!
+
+Speed measurement: "https://spdde.iqo3333.cn"
+
+Standby: "https://iqo3333.github.io/speed"
+
 © LynnChe 2023-Present. All Rights Reserved
