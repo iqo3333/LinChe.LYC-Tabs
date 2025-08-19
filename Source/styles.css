@@ -1,22 +1,19 @@
 /* 全局样式 */
 html, body {
-  overflow-x: hidden;
-  height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 100%; /* 保证基础高度 */
+  height: auto;     /* 避免 vh 计算错误 */
 }
-
 body {
-  font-family: "Arial", sans-serif;
-  background: linear-gradient(135deg, rgb(214, 238, 250), rgb(180, 222, 250), rgb(240, 248, 255));
-  background-size: cover;
-  background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background: linear-gradient(135deg, rgb(214,238,250), rgb(180,222,250), rgb(240,248,255));
 }
+
 
 /* 容器样式（主样式） */
 .container {
@@ -33,7 +30,13 @@ body {
     margin: 40px;           /* 外边距 */
     box-sizing: border-box;
     flex-shrink: 0;         /* 防止横屏下被压缩变形 */
+
+    /* ✅ 添加动画属性 */
+    opacity: 0; /* 初始透明 */
+    transform: translateY(-30px); /* 初始偏移 */
+    animation: fadeSlideDown 0.8s ease-out forwards; /* 动画 */
 }
+
 
 /* 横屏优化（视口较矮时的特殊处理） */
 @media screen and (orientation: landscape) and (max-height: 500px) {
@@ -320,46 +323,31 @@ footer {
   }
 }
 
+/* 爱心样式 */
 .heart {
   position: absolute;
   font-size: 16px;
-  color: red;
   pointer-events: none;
   animation: float-up 1s ease-out forwards;
 }
 
-.trail-star {
-  position: absolute;
-  width: 12px;           /* 原本是 6px，放大了一倍 */
-  height: 12px;
-  background: gold;
-  border-radius: 50%;
-  box-shadow: 0 0 8px gold;  /* 增加发光效果 */
-  pointer-events: none;
-  animation: fade-out 0.8s ease-out forwards;
-}
-
-
-/* 爱心上升动画 */
 @keyframes float-up {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-30px) scale(1.5);
-    opacity: 0;
-  }
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-30px) scale(1.5); opacity: 0; }
 }
 
-/* 拖尾星星淡出动画 */
-@keyframes fade-out {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0.5);
-  }
+/* 全局禁止选中 */
+body, body * {
+  user-select: none;
+  -webkit-user-select: none; /* Safari/Chrome */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE10+ */
+}
+
+/* 输入框允许选中 */
+input[type="text"], textarea {
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
 }

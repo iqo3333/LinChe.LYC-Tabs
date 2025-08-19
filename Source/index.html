@@ -40,62 +40,7 @@
     </div>
     <p class="copyright">© Lynn Che 2023-Present. All Rights Reserved</p>
   </footer>
-  
+
   <script src="script.js"></script>
-<script>
-// 爱心颜色数组
-const colors = ['#e25555', '#ff69b4', '#ff9933', '#66ccff', '#9933ff', '#ff3399'];
-
-// 点击时生成多个爱心
-document.addEventListener("click", function(e) {
-  for (let i = 0; i < 6; i++) {
-    createHeart(e.clientX + Math.random() * 1 - 1, e.clientY + Math.random() * 1 - 1);
-  }
-});
-
-function createHeart(x, y) {
-  const heart = document.createElement("div");
-  heart.className = "heart";
-  heart.innerText = "❤";
-  heart.style.left = x + "px";
-  heart.style.top = y + "px";
-  heart.style.color = colors[Math.floor(Math.random() * colors.length)];
-  document.body.appendChild(heart);
-  setTimeout(() => heart.remove(), 1000);
-}
-
-// ⭐ 节流逻辑：控制生成频率
-let lastStarTime = 0;
-
-function createStar(x, y) {
-  const star = document.createElement("div");
-  star.className = "trail-star";
-  star.innerText = "✨";
-  star.style.left = x + "px";
-  star.style.top = y + "px";
-  document.body.appendChild(star);
-  setTimeout(() => star.remove(), 800);
-}
-
-// 鼠标移动时生成星星拖尾（电脑端）带节流
-document.addEventListener("mousemove", function(e) {
-  const now = Date.now();
-  if (now - lastStarTime > 20) {
-    createStar(e.pageX, e.pageY);
-    lastStarTime = now;
-  }
-});
-
-// 手指滑动时生成星星拖尾（手机端）带节流
-document.addEventListener("touchmove", function(e) {
-  const now = Date.now();
-  if (now - lastStarTime > 20) {
-    const touch = e.touches[0];
-    createStar(touch.pageX, touch.pageY);
-    lastStarTime = now;
-  }
-});
-</script>
-
 </body>
 </html>
