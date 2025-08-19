@@ -6,6 +6,7 @@ html, body {
   min-height: 100%; /* 保证基础高度 */
   height: auto;     /* 避免 vh 计算错误 */
 }
+
 body {
   display: flex;
   flex-direction: column;

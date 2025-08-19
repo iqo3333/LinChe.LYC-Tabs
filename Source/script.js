@@ -137,11 +137,11 @@ function createHeart(x, y) {
 //------------------使用 JS 动态设置 body 高度------------------
 function setBodyHeight() {
     document.body.style.height = window.innerHeight + 'px';
-    document.documentElement.style.height = window.innerHeight + 'px'; // 兼容 html 元素
 }
 window.addEventListener('resize', setBodyHeight);
-window.addEventListener('orientationchange', setBodyHeight);
-setBodyHeight();
+window.addEventListener('orientationchange', setBodyHeight); // 横竖屏切换
+setBodyHeight(); // 初始调用
+
 
 
 
