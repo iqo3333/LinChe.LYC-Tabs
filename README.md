@@ -3,7 +3,7 @@
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en_us.md">🇺🇸English</a> | 
     <b>🇨🇳简体中文</b> | 
-  <a href="README_zh_hk;tw.md">🇹🇼繁体中文</a> 
+  <a href="README_zh_hk.md">🇭🇰繁体中文</a> 
 </p>
 <hr>
 你还在为目前的标签页杂乱址而烦恼吗？是否希望能快速访问或搜索到目标网站？现在，我推出了一款简洁的标签页，帮你轻松搞定这一切！
