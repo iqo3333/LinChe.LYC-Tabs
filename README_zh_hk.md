@@ -2,7 +2,7 @@
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
-    <b>🇹🇼繁体中文</b> | 
+    <b>🇭🇰繁体中文</b> | 
   <a href="README_en_us.md">🇺🇸English</a> 
 </p>
 <hr>
@@ -32,7 +32,7 @@
 
 不確定是否能訪問？ 試試連接測試呢！
 
-測速："https://spdde.iqo3333.cn"
+測速："https://speed.iqo3333.cn"
 
 備用："https://iqo3333.github.io/speed"
 
