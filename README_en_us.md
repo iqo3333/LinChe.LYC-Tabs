@@ -36,4 +36,4 @@ Speed measurement: "https://speed.iqo3333.cn"
 
 Standby: "https://iqo3333.github.io/speed"
 
-© LynnChe 2023-Present. All Rights Reserved
+© LynnChe 2023-Present. All Rights Reserve
