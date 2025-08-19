@@ -32,7 +32,7 @@
 
 不确定是否能访问？试试连接测试呢！
 
-测速："https://spdde.iqo3333.cn"
+测速："https://speed.iqo3333.cn"
 
 备用："https://iqo3333.github.io/speed"
 
