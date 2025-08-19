@@ -32,7 +32,7 @@ Use my LynnChe-tab now, say goodbye to tedious operations, and enjoy a convenien
 
 Not sure if you can access it? Try the connection test!
 
-Speed measurement: "https://spdde.iqo3333.cn"
+Speed measurement: "https://speed.iqo3333.cn"
 
 Standby: "https://iqo3333.github.io/speed"
 
