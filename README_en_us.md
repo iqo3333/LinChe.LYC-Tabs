@@ -28,7 +28,7 @@ Cross-platform support: Get a consistent and high-quality experience whether use
 
 Use my LynnChe-tab now, say goodbye to tedious operations, and enjoy a convenient internet surfing experience!
 
-📌 Visit the preview page "https://tab.iqo3333.cn" 🔗
+📌 Visit the preview page "https://tab.iqo3333.cn/en" 🔗
 
 Not sure if you can access it? Try the connection test!
 
