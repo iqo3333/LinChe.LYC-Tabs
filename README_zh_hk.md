@@ -2,7 +2,9 @@
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
+<a href="README_ja_JP.md">🇯🇵日本語</a> | 
     <b>🇭🇰繁体中文</b> | 
+<a href="README_ko_KR.md">🇰🇷한국어</a> |
   <a href="README_en_us.md">🇺🇸English</a> 
 </p>
 <hr>
