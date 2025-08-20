@@ -12,7 +12,7 @@
 
 🔗 LynnChe-タブページは、ドメイン名やキーワードを入力するだけで、ターゲットサイトにジャンプしたり、選択した検索エンジン内でキーワードを検索したりするのに便利なツールです。複雑な操作を必要とせず、簡単なステップで完了できます。
 
-ドメイン名の入力：「example.com」または「https://example.com「簡単に識別できます。
+ドメイン名の入力："example.com"または"https://example.com"簡単に識別できます。
 
 検索エンジン（キーワード検索のみ）：3つの検索エンジン（Bing、Google、Baidu）を内蔵しています。もちろん、他の検索エンジンを追加することができます
 
@@ -30,12 +30,12 @@
 
 すぐに私のLynnChe-タブページを使用して、煩わしい操作に別れを告げ、便利なインターネットサーフィン体験を楽しみましょう！
 
-📌 プレビューページにアクセスするhttps://tab.iqo3333.cn/ja-JP" 🔗
+📌 プレビューページにアクセスする"https://tab.iqo3333.cn/ja-JP" 🔗
 
 アクセスできますか？接続テストを試してみましょう！
 
 速度測定:"https://speed.iqo3333.cn"
 
-代替：「https://iqo3333.github.io/speed"
+代替："https://iqo3333.github.io/speed"
 
 © LynnChe 2023-Present. All Rights Reserved
