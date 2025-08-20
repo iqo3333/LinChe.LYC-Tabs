@@ -1,4 +1,4 @@
-# LynnChe-标签页  简单快捷的域名跳转方式！ 
+# LynnChe-タブページの簡単で迅速なドメイン名ジャンプ方法！ 
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en_us.md">🇺🇸English</a> | 
