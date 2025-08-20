@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>LynnChe-標籤頁</title>
+  <link rel="icon" href="../icons/LOGO.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+<div class="lang-wrapper">
+  <button class="lang-btn">Language/語言 ▾</button>
+  <div class="lang-dropdown">
+   <a href="../index.html">简体中文</a>
+    <a href="../en/index.html">English</a>
+   <a href="../ja-JP/index.html">日本語</a>
+   <a href="../ko-KR/index.html">한국어</a>
+     </div>
+</div>
+  <div class="container">
+    <h2>🏄 LynnChe-標籤頁</h2>
+    <p class="subtitle">輸入功能變數名稱或關鍵詞，即可跳轉或搜索</p>
+
+    <div class="input-container">
+      <div class="engine-wrapper" id="engineSelect">
+        <img id="engineIcon" src="../icons/bing.png" alt="搜尋引擎" />
+      </div>
+      <input type="text" id="domainInput" placeholder="例如：example.com 或 關鍵詞" />
+      <div class="engine-dropdown" id="engineDropdown">
+        <div data-engine="bing" data-icon="../icons/bing.png">Bing</div>
+        <div data-engine="google" data-icon="../icons/google.png">Google</div>
+        <div data-engine="baidu" data-icon="../icons/baidu.png">Baidu</div>
+      </div>
+    </div>
+
+    <button onclick="handleInput()">🚀跳轉或🔍搜索</button>
+    <p id="errorMsg" class="error-msg"></p>
+  </div>
+
+  <!-- 底部 -->
+  <footer>
+    <div class="footer-right">
+      <a href="https://lync.iqo3333.cn" target="_blank" class="footer-icon">
+        <img src="../icons/LOGO.png" alt="博客" class="icon-img" />
+      </a>
+      <a href="https://github.com/iqo3333/LynnChe-Tabs" target="_blank" class="footer-icon">
+        <img src="../icons/github.png" alt="GitHub" class="icon-img" />
+      </a>
+    </div>
+    <p class="copyright">© Lynn Che 2023-Present. All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
