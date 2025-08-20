@@ -56,13 +56,27 @@ function handleInput() {
     
     let finalURL = input;
 
-    // 文件链接直接新标签页打开
+    const jumpDelay = 1500;
+
+    // 精确 Safari 判断
+    function isSafariBrowser() {
+        const ua = navigator.userAgent;
+        const isIOS = /iP(ad|hone|od)/.test(ua);
+        const isMac = /Macintosh/.test(ua);
+        const isSafari = /Safari/.test(ua) && !/Chrome|CriOS|FxiOS|EdgiOS|OPiOS/.test(ua);
+        return (isIOS || isMac) && isSafari;
+    }
+
+    const target = isSafariBrowser() ? "_self" : "_blank";
+    const delayedOpen = (url) => setTimeout(() => window.open(url, target), jumpDelay);
+
+    // 文件链接
     if (isFullURL) {
         try {
             const urlObj = new URL(input);
             if (fileExtensions.test(urlObj.pathname) && !isProbablyDomain) {
-                showTip("📦 识别为文件链接，正在跳转...","info");
-                window.open(input, "_blank");  // 直接打开
+                showTip("📦 识别为文件链接，正在跳转...", "info");
+                delayedOpen(input);
                 return;
             }
         } catch {}
@@ -71,22 +85,22 @@ function handleInput() {
     // 完整链接
     try {
         new URL(input);
-        showTip("🌐 识别为完整链接，正在跳转...","success");
-        window.open(input, "_blank");
+        showTip("🌐 识别为完整链接，正在跳转...", "success");
+        delayedOpen(input);
         return;
     } catch {}
 
     // 域名或 IP
     if (domainRegex.test(input) || ipRegex.test(input)) {
         finalURL = isFullURL ? input : "http://" + input;
-        showTip("🔗 识别为域名/IP地址，正在跳转...","success");
-        window.open(finalURL, "_blank");
+        showTip("🔗 识别为域名/IP地址，正在跳转...", "success");
+        delayedOpen(finalURL);
         return;
     }
 
     // 搜索
-    showTip("🔍 未识别格式，使用搜索引擎查询...","info");
-    window.open(engineMap[currentEngine] + encodeURIComponent(input), "_blank");
+    showTip("🔍 未识别格式，使用搜索引擎查询...", "info");
+    delayedOpen(engineMap[currentEngine] + encodeURIComponent(input));
 }
 
 // 回车触发
@@ -141,7 +155,69 @@ function setBodyHeight() {
 window.addEventListener('resize', setBodyHeight);
 window.addEventListener('orientationchange', setBodyHeight); // 横竖屏切换
 setBodyHeight(); // 初始调用
+// //------------------语言选择下拉开关------------------
+const langWrapper = document.querySelector('.lang-wrapper');
+const langBtn = document.querySelector('.lang-btn');
 
+langBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  langWrapper.classList.toggle('active');
+});
 
+document.addEventListener('click', () => {
+  langWrapper.classList.remove('active');
+});
+// //------------------阻止缩放提示------------------
+let lastTouchEnd = 0;
 
+function showZoomTip() {
+    const existingTip = document.querySelector('.zoom-tip');
+    if (existingTip) return; // 避免重复创建
 
+    const tip = document.createElement('div');
+    tip.className = 'zoom-tip';
+    tip.textContent = '⚠️ 页面禁止缩放';
+    tip.style.position = 'fixed';
+    tip.style.top = '20px';
+    tip.style.left = '50%';
+    tip.style.transform = 'translateX(-50%)';
+    tip.style.background = 'rgba(0,0,0,0.7)';
+    tip.style.color = 'white';
+    tip.style.padding = '10px 20px';
+    tip.style.borderRadius = '10px';
+    tip.style.zIndex = '9999';
+    tip.style.fontSize = '14px';
+    tip.style.opacity = '0';
+    tip.style.transition = 'opacity 0.3s ease';
+    document.body.appendChild(tip);
+    setTimeout(() => tip.style.opacity = '1', 10);
+    setTimeout(() => tip.style.opacity = '0', 2000);
+    setTimeout(() => tip.remove(), 2300);
+}
+
+// 双击缩放阻止
+document.addEventListener('touchend', function(event) {
+    const now = new Date().getTime();
+    if (now - lastTouchEnd <= 300) { 
+        event.preventDefault();
+        showZoomTip();
+    }
+    lastTouchEnd = now;
+}, false);
+
+// 双指捏合阻止
+document.addEventListener('gesturestart', function(event) {
+    event.preventDefault();
+    showZoomTip();
+});
+
+function checkZoom() {
+    const zoom = Math.round(window.devicePixelRatio * 100);
+    if (zoom !== 100) {
+        showTip("⚠️ 為獲得最佳體驗，請保持頁面縮放 100%", "info", 3000);
+    }
+}
+
+window.addEventListener('resize', checkZoom);
+window.addEventListener('orientationchange', checkZoom);
+window.addEventListener('load', checkZoom);

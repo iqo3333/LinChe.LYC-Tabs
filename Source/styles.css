@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   min-height: 100%; /* 保证基础高度 */
   height: auto;     /* 避免 vh 计算错误 */
+  touch-action: pan-x pan-y; /* 禁止双指缩放，只允许单指平移 */
 }
 
 body {
@@ -351,4 +352,74 @@ input[type="text"], textarea {
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
+}
+
+/* 语言切换 */
+.lang-wrapper {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+}
+
+.lang-btn {
+  padding: 8px 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+  backdrop-filter: blur(6px);
+}
+
+.lang-btn:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transform: translateY(-1px);
+}
+
+/* 下拉菜单默认状态 */
+.lang-dropdown {
+  opacity: 0;
+  transform: translateY(-10px) scale(0.95);
+  transition: all 0.25s ease;
+  pointer-events: none;
+
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 6px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+/* 激活状态：展开 */
+.lang-wrapper.active .lang-dropdown {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+
+.lang-dropdown a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.lang-dropdown a:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+/* 点击展开 */
+.lang-wrapper.active .lang-dropdown {
+  display: block;
 }
