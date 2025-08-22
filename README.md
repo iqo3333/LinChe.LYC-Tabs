@@ -4,7 +4,7 @@
   <a href="README_en_us.md">🇺🇸English</a> | 
 <a href="README_ja_JP.md">🇯🇵日本語</a> | 
     <b>🇨🇳简体中文</b> | 
-  <a href="README_zh_hk.md">🇭🇰繁体中文</a> | 
+  <a href="README_zh_hant.md">🇭🇰繁體中文</a> | 
 <a href="README_ko_KR.md">🇰🇷한국어</a> 
 </p>
 <hr>
