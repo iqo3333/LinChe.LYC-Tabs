@@ -1,41 +1,42 @@
-# LynnChe-标签页  简单快捷的域名跳转方式！ 
+# LynnChe-Tab A Simple and Fast Way to Access Domains!
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
 <a href="README_ja_JP.md">🇯🇵日本語</a> | 
     <b>🇺🇸English</b> | 
 <a href="README_ko_KR.md">🇰🇷한국어</a> |
-  <a href="README_zh_hk.md">🇭🇰繁体中文</a> 
+  <a href="README_zh_hant.md">🇭🇰繁體中文</a> 
 </p>
 <hr>
-Are you still bothered by the clutter of your current tabs? Want to be able to quickly access or search for your target website? Now, I've launched a clean tab to help you do it all!
+Are you still troubled by the cluttered tabs in your browser? Do you wish to quickly access or search your target websites? Now, I present to you a clean and simple tab page that makes everything easier!
 
-🔗 LynnChe-Tab is a convenient tool that simply enters a domain name or keyword, and it will automatically redirect you to the target website or search for keywords in the search engine of your choice. No complicated operations, just a few simple steps:
+🔗 LynnChe-Tab is a convenient and practical tool. Simply enter a domain name or keyword, and it will automatically redirect you to the target website or search the keyword using your chosen search engine. No complicated operations, just a few easy steps:
 
-Enter the domain name: Enter the domain name you want to access in the input box, whether it's "example.com" or "https://example.com", it's easily identifiable.
+Enter a domain name: Type the domain you want to visit into the input box. Whether it's "example.com" or "https://example.com
+", it will be recognized instantly.
 
-Search engine (for keyword search only): There are three built-in search engines (Bing; Google; Baidu), of course, if you have the ability, you can add other search engines
+Search engine (for keyword search only): Three search engines are built in (Bing, Google, Baidu). Of course, you can also add your own search engines if you like.
 
-Smart Check: We intelligently check the domain name you enter, ensuring validity and alerting you to possible errors to improve your experience.
+Smart checking: We intelligently check the entered domain name to ensure validity and provide possible error hints to improve the experience.
 
-Completely open source: If you know a thing or two about static websites, you can choose to download my source code to modify, but you can't use it for profit!!
+Fully open-source: If you know a bit about static websites, you can download my source code and modify it. However, you may not use it for profit!!!
 
-✨ Featured features:
+✨ Features:
 
-Simple and clear user interface: The clean and simple design makes it easy for you to get started.
+Simple and clear user interface: Clean and minimalist design for easy use.
 
-Intelligent Domain Name Resolution: Automatically completes and checks domain name formats to ensure accurate jumps.
+Smart domain parsing: Automatically completes and checks domain formats to ensure accurate redirection.
 
-Cross-platform support: Get a consistent and high-quality experience whether used on a computer, tablet, or phone.
+Cross-platform support: Whether on PC, tablet, or mobile, you’ll get the same high-quality experience.
 
-Use my LynnChe-tab now, say goodbye to tedious operations, and enjoy a convenient internet surfing experience!
+Start using LynnChe-Tab now, say goodbye to tedious operations, and enjoy a smooth and convenient internet surfing experience!
 
 📌 Visit the preview page "https://tab.iqo3333.cn/en" 🔗
 
-Not sure if you can access it? Try the connection test!
+Not sure if it works? Try the connection test!
 
-Speed measurement: "https://speed.iqo3333.cn"
+Speed Test: "https://speed.iqo3333.cn"
 
-Standby: "https://iqo3333.github.io/speed"
+Backup: "https://iqo3333.github.io/speed"
 
 © LynnChe 2023-Present. All Rights Reserved
