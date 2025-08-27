@@ -33,6 +33,8 @@ Start using LynnChe-Tab now, say goodbye to tedious operations, and enjoy a smoo
 
 📌 Visit the preview page "https://tab.iqo3333.cn/en" 🔗
 
+📌 Application version(X64)：<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">Download Now</a>🔗
+
 Not sure if it works? Try the connection test!
 
 Speed Test: "https://speed.iqo3333.cn"
