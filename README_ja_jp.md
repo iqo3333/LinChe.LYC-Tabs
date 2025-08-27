@@ -33,6 +33,8 @@
 
 📌 プレビューサイトはこちら "https://tab.iqo3333.cn/ja_jp" 🔗
 
+📌アプリケーションバージョン(X64)：<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">今すぐダウンロード</a>🔗
+
 アクセスできるか不安ですか？接続テストを試してください！
 
 速度テスト："https://speed.iqo3333.cn"
