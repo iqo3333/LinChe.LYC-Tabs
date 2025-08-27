@@ -32,6 +32,8 @@
 
 📌 미리보기 페이지 방문 "https://tab.iqo3333.cn/ko_kr" 🔗
 
+📌 응용 프로그램 버전(X64)：<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">즉시 다운로드</a>🔗
+
 접속이 안 될까 걱정되시나요? 연결 테스트를 해보세요!
 
 속도 테스트: "https://speed.iqo3333.cn"
