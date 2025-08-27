@@ -30,9 +30,9 @@
 
 立即使用我的 LynnChe-标签页，告别繁琐操作，享受便捷的互联网冲浪体验吧！
 
-<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">应用程序版本</a>
+📌 访问预览页面"https://tab.iqo3333.cn" 
 
-📌 访问预览页面"https://tab.iqo3333.cn" 🔗
+应用程序版本(X64)：<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">立即下载</a>🔗
 
 不确定是否能访问？试试连接测试呢！
 
