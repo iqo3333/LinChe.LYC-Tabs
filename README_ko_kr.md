@@ -40,4 +40,4 @@
 
 백업: "https://iqo3333.github.io/speed"
 
-© LynnChe 2023-Present. All Rights Reserved
+© LynnChe 2025. All Rights Reserved
