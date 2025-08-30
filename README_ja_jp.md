@@ -33,7 +33,7 @@
 
 📌 プレビューサイトはこちら "https://tab.iqo3333.cn/ja_jp" 🔗
 
-📌アプリケーションバージョン(X64)：<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">今すぐダウンロード</a>🔗
+🔗 互換性仕様表"https://github.com/iqo3333/LynnChe-Tabs/blob/main/Compatibility%20Specification%20Table/ja_jp.md" 
 
 アクセスできるか不安ですか？接続テストを試してください！
 
