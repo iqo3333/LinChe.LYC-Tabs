@@ -32,7 +32,7 @@
 
 📌 访问预览页面"https://tab.iqo3333.cn" 
 
-应用程序版本(X64)：<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">立即下载</a>🔗
+🔗 兼容性规格表"https://github.com/iqo3333/LynnChe-Tabs/blob/main/Compatibility%20Specification%20Table/zh_cn.md" 
 
 不确定是否能访问？试试连接测试呢！
 
