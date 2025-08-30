@@ -33,7 +33,7 @@
 
 📌 訪問預覽頁面 "https://tab.iqo3333.cn/zh_hant" 🔗
 
-📌 應用程式版本(X64)：<a href="https://github.com/iqo3333/LynnChe-Tabs/releases/download/Ver.8.0.6/LynnCheTab_install_x64.exe">立即下載</a>🔗
+🔗 相容性規格表"https://github.com/iqo3333/LynnChe-Tabs/blob/main/Compatibility%20Specification%20Table/zh_hant.md" 
 
 不確定是否能訪問？試試連線測試吧！
 
