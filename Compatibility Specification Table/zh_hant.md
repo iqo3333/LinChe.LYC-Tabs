@@ -1,4 +1,5 @@
 # 瀏覽器相容性
+
 本網站基於 HTML5、CSS3（含液態玻璃效果）、ES6 JavaScript 及部分高級 CSS 特性（如 `backdrop-filter`、`will-change`）構建。
 
 為了保證功能和效果完整展示，最低支持的瀏覽器版本如下：
