@@ -22,3 +22,5 @@ To ensure full functionality and effect display, the minimum supported browser v
 * Older browsers may still load the website, but visual effects and input validation features may be limited.
 
 For the best experience and animation effects, we recommend using **Chrome 100+ / Safari 15+ / Edge 100+**.
+
+⚠️  Tip: This report applies to "Ver. 8.1.1" and earlier versions, and does not guarantee accuracy regarding compatibility with subsequent versions!
