@@ -1,4 +1,4 @@
-# LinChe-탭 간단하고 빠른 도메인 접근 방식!
+# LinChe.LYC-탭 간단하고 빠른 도메인 접근 방식!
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en.md">🇺🇸English</a> | 
@@ -32,7 +32,7 @@
 
 📌 미리보기 페이지 방문 "https://tab.iqo3333.cn/ko_kr" 🔗
 
-🔗 호환성 사양표"https://github.com/iqo3333/LinChe-Tabs/blob/main/Compatibility%20Specification%20Table/kr_ko.md" 
+🔗 호환성 사양표"https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/kr_ko.md" 
 
 접속이 안 될까 걱정되시나요? 연결 테스트를 해보세요!
 
