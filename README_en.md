@@ -1,4 +1,4 @@
-# LynnChe-Tab A Simple and Fast Way to Access Domains!
+# LinChe-Tabs A Simple and Fast Way to Access Domains!
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
@@ -33,7 +33,7 @@ Start using LynnChe-Tab now, say goodbye to tedious operations, and enjoy a smoo
 
 📌 Visit the preview page "https://tab.iqo3333.cn/en" 🔗
 
-🔗 Compatibility Specification Table"https://github.com/iqo3333/LynnChe-Tabs/blob/main/Compatibility%20Specification%20Table/en.md" 
+🔗 Compatibility Specification Table"https://github.com/iqo3333/LinChe-Tabs/blob/main/Compatibility%20Specification%20Table/en.md" 
 
 Not sure if it works? Try the connection test!
 
