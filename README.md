@@ -1,4 +1,4 @@
-# LynnChe-标签页  简单快捷的域名跳转方式！ 
+# 林澈.LYC-标签页  简单快捷的域名跳转方式！ 
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en.md">🇺🇸English</a> | 
@@ -32,7 +32,7 @@
 
 📌 访问预览页面"https://tab.iqo3333.cn" 
 
-🔗 兼容性规格表"https://github.com/iqo3333/LynnChe-Tabs/blob/main/Compatibility%20Specification%20Table/zh_cn.md" 
+🔗 兼容性规格表"https://github.com/iqo3333/LinChe-Tabs/blob/main/Compatibility%20Specification%20Table/zh_cn.md" 
 
 不确定是否能访问？试试连接测试呢！
 
