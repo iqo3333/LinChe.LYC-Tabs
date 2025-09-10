@@ -1,4 +1,4 @@
-# LynnChe-標籤頁 簡單快捷的網域訪問方式！
+# LinChe-標籤頁 簡單快捷的網域訪問方式！
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
@@ -33,7 +33,7 @@
 
 📌 訪問預覽頁面 "https://tab.iqo3333.cn/zh_hant" 🔗
 
-🔗 相容性規格表"https://github.com/iqo3333/LynnChe-Tabs/blob/main/Compatibility%20Specification%20Table/zh_hant.md" 
+🔗 相容性規格表"https://github.com/iqo3333/LinChe-Tabs/blob/main/Compatibility%20Specification%20Table/zh_hant.md" 
 
 不確定是否能訪問？試試連線測試吧！
 
