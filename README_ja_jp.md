@@ -1,4 +1,4 @@
-# LinChe-タブ シンプルで素早いドメインアクセス方法！
+# LinChe.LYC-タブ シンプルで素早いドメインアクセス方法！
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en.md">🇺🇸English</a> | 
@@ -33,7 +33,7 @@
 
 📌 プレビューサイトはこちら "https://tab.iqo3333.cn/ja_jp" 🔗
 
-🔗 互換性仕様表"https://github.com/iqo3333/LinChe-Tabs/blob/main/Compatibility%20Specification%20Table/ja_jp.md" 
+🔗 互換性仕様表"https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/ja_jp.md" 
 
 アクセスできるか不安ですか？接続テストを試してください！
 
