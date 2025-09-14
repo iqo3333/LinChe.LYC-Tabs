@@ -10,7 +10,7 @@
 <hr>
 Are you still troubled by the cluttered tabs in your browser? Do you wish to quickly access or search your target websites? Now, I present to you a clean and simple tab page that makes everything easier!
 
-🔗 LynnChe-Tab is a convenient and practical tool. Simply enter a domain name or keyword, and it will automatically redirect you to the target website or search the keyword using your chosen search engine. No complicated operations, just a few easy steps:
+🔗 LinChe.LYC-Tab is a convenient and practical tool. Simply enter a domain name or keyword, and it will automatically redirect you to the target website or search the keyword using your chosen search engine. No complicated operations, just a few easy steps:
 
 Enter a domain name: Type the domain you want to visit into the input box. Whether it's "example.com" or "https://example.com
 ", it will be recognized instantly.
@@ -29,7 +29,7 @@ Smart domain parsing: Automatically completes and checks domain formats to ensur
 
 Cross-platform support: Whether on PC, tablet, or mobile, you’ll get the same high-quality experience.
 
-Start using LynnChe-Tab now, say goodbye to tedious operations, and enjoy a smooth and convenient internet surfing experience!
+Start using LinChe.LYC now, say goodbye to tedious operations, and enjoy a smooth and convenient internet surfing experience!
 
 📌 Visit the preview page "https://tab.iqo3333.cn/en" 🔗
 
@@ -41,4 +41,4 @@ Speed Test: "https://speed.iqo3333.cn"
 
 Backup: "https://iqo3333.github.io/speed"
 
-© LynnChe 2025. All Rights Reserved
+© LinChe.LYC 2025. All Rights Reserved
