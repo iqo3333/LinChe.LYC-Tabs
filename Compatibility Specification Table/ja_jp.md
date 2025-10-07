@@ -1,26 +1,26 @@
 # ブラウザ互換性
 
-このウェブサイトは、HTML5、CSS3（液体ガラス効果を含む）、ES6 JavaScript、およびいくつかの高度なCSS機能（`backdrop-filter`、`will-change`など）を使用して構築されています。
+このウェブサイトは、HTML5、CSS3（ガラス効果含む）、ES6 JavaScript、および一部の高度な CSS 機能（`backdrop-filter`、`will-change` など）を使用して構築されています。
 
-完全な機能と効果の表示を確保するため、最低サポートされるブラウザバージョンは以下の通りです。
+すべての機能とビジュアル効果を正しく表示するための最小サポートブラウザは以下の通りです。
 
-| 機能                                            | Chrome | Edge (Chromium) | Safari |    IE    |
-| --------------------------------------------- | :----: | :-------------: | :----: | :------: |
-| ES6構文 (`const/let`、矢印関数、テンプレートリテラル)           |   49+  |       15+       |   10+  |   ❌ 非対応  |
-| Unicode 正規表現 (`\p{L}`、`\p{N}` ドメイン/キーワード検出用)  |   64+  |       79+       |   12+  |   ❌ 非対応  |
-| `backdrop-filter` / `-webkit-backdrop-filter` |   76+  |       79+       |   9+   |   ❌ 非対応  |
-| `will-change`                                 |   36+  |       79+       |   9+   |  ❌ 部分対応  |
-| Flex レイアウト                                    |   29+  |       12+       |   9+   | 10+ 基本対応 |
-| MutationObserver                              |   11+  |       79+       |   12+  | 10+ 部分対応 |
-| CSS変数 (`var(--dynamic-text-color)`)           |   49+  |       15+       |   9+   |   ❌ 非対応  |
+| 機能                                            | Chrome | Edge (Chromium) | Safari | IE           |
+| --------------------------------------------- | :----: | :-------------: | :----: | :---------: |
+| ES6 文法 (`const/let`, アロー関数, テンプレート文字列) | <span style="color:green">✅ 49+</span> | <span style="color:green">✅ 15+</span> | <span style="color:green">✅ 10+</span> | <span style="color:red">❌ 非対応</span> |
+| Unicode 正規表現 (`\p{L}`, `\p{N}` ドメイン/キーワード検出用) | <span style="color:green">✅ 64+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 12+</span> | <span style="color:red">❌ 非対応</span> |
+| `backdrop-filter` / `-webkit-backdrop-filter` | <span style="color:green">✅ 76+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:red">❌ 非対応</span> |
+| `will-change`                                 | <span style="color:green">✅ 36+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:orange">⚠️ 部分対応</span> |
+| Flex レイアウト                                | <span style="color:green">✅ 29+</span> | <span style="color:green">✅ 12+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:orange">⚠️ 基本対応</span> |
+| MutationObserver                               | <span style="color:green">✅ 11+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 12+</span> | <span style="color:orange">⚠️ 部分対応</span> |
+| CSS 変数 (`var(--dynamic-text-color)`)          | <span style="color:green">✅ 49+</span> | <span style="color:green">✅ 15+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:red">❌ 非対応</span> |
 
-⚠️ 注意:
+⚠️ 注意事項:
 
-* IEシリーズのブラウザはES6、CSS変数、Unicode正規表現をサポートしていないため、ページ機能が動作しない可能性があります。
-* `backdrop-filter` はIEでサポートされておらず、液体ガラス効果が表示されません。
-* 古いSafariバージョン（<12）やChromium Edge（<79）は、Unicodeドメイン名やキーワードを正しく認識できません。
-* 古いブラウザでは、ウェブサイトは表示されるかもしれませんが、視覚効果や入力検証機能が制限される可能性があります。
+* IE 系ブラウザは ES6、CSS 変数、Unicode 正規表現を **サポートしていません**。一部の機能は動作しない可能性があります。  
+* IE では `backdrop-filter` がサポートされないため、ガラス効果は表示されません。  
+* 古い Safari (<12) および Chromium Edge (<79) では Unicode ドメインやキーワードを正しく認識できません。  
+* 古いブラウザでもサイトは開けますが、視覚効果や入力検証機能が制限される場合があります。  
 
-最適な体験とアニメーション効果を得るためには、\*\*Chrome 100+ / Safari 15+ / Edge 100+\*\*の使用をお勧めします。
+最適な体験とアニメーション効果を得るには、推奨ブラウザ: **Chrome 100+ / Safari 15+ / Edge 100+**  
 
-⚠️ ヒント：このレポートは「Ver.8.1.1」より前のバージョンに適用され、以降のバージョンに互換性があるかどうかを保証するものではありません！
+⚠️ 注意: このレポートは「Ver.8.1.0」およびそれ以前のバージョンに適用されます。以降のバージョンでの互換性は **保証されません**。
