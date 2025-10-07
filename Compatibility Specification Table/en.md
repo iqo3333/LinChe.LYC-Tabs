@@ -1,26 +1,26 @@
 # Browser Compatibility
 
-This website is built using HTML5, CSS3 (including liquid glass effects), ES6 JavaScript, and some advanced CSS features (such as `backdrop-filter`, `will-change`).
+This website is built with HTML5, CSS3 (including glass effect), ES6 JavaScript, and some advanced CSS features (like `backdrop-filter` and `will-change`).
 
-To ensure full functionality and effect display, the minimum supported browser versions are as follows:
+To ensure full functionality and proper visual effects, the minimum supported browser versions are as follows:
 
-| Feature                                                       | Chrome | Edge (Chromium) | Safari |          IE         |
-| ------------------------------------------------------------- | :----: | :-------------: | :----: | :-----------------: |
-| ES6 Syntax (`const/let`, Arrow functions, Template literals)  |   49+  |       15+       |   10+  |   ❌ Not Supported   |
-| Unicode Regex (`\p{L}`, `\p{N}` for domain/keyword detection) |   64+  |       79+       |   12+  |   ❌ Not Supported   |
-| `backdrop-filter` / `-webkit-backdrop-filter`                 |   76+  |       79+       |   9+   |   ❌ Not Supported   |
-| `will-change`                                                 |   36+  |       79+       |   9+   |  ❌ Partial Support  |
-| Flex Layout                                                   |   29+  |       12+       |   9+   |  10+ Basic Support  |
-| MutationObserver                                              |   11+  |       79+       |   12+  | 10+ Partial Support |
-| CSS Variables (`var(--dynamic-text-color)`)                   |   49+  |       15+       |   9+   |   ❌ Not Supported   |
+| Feature                                        | Chrome | Edge (Chromium) | Safari | IE          |
+| --------------------------------------------- | :----: | :-------------: | :----: | :--------: |
+| ES6 Syntax (`const/let`, arrow functions, template literals) | <span style="color:green">✅ 49+</span> | <span style="color:green">✅ 15+</span> | <span style="color:green">✅ 10+</span> | <span style="color:red">❌ Not Supported</span> |
+| Unicode Regex (`\p{L}`, `\p{N}` for domain/keyword detection) | <span style="color:green">✅ 64+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 12+</span> | <span style="color:red">❌ Not Supported</span> |
+| `backdrop-filter` / `-webkit-backdrop-filter` | <span style="color:green">✅ 76+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:red">❌ Not Supported</span> |
+| `will-change`                                 | <span style="color:green">✅ 36+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:orange">⚠️ Partial Support</span> |
+| Flex Layout                                   | <span style="color:green">✅ 29+</span> | <span style="color:green">✅ 12+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:orange">⚠️ Basic Support</span> |
+| MutationObserver                              | <span style="color:green">✅ 11+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 12+</span> | <span style="color:orange">⚠️ Partial Support</span> |
+| CSS Variables (`var(--dynamic-text-color)`)    | <span style="color:green">✅ 49+</span> | <span style="color:green">✅ 15+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:red">❌ Not Supported</span> |
 
 ⚠️ Notes:
 
-* IE browsers do not support ES6, CSS variables, or Unicode Regex, which may cause certain features not to function.
-* `backdrop-filter` is not supported in IE, and the liquid glass effect will not be displayed.
-* Older versions of Safari (<12) and Chromium Edge (<79) cannot properly detect Unicode domain names or keywords.
-* Older browsers may still load the website, but visual effects and input validation features may be limited.
+* IE browsers do **not support** ES6, CSS variables, or Unicode regex; some features may not work.  
+* `backdrop-filter` is not supported in IE, so the glass effect will not appear.  
+* Older Safari (<12) and Chromium Edge (<79) cannot properly recognize Unicode domains or keywords.  
+* Older browsers may still open the website, but visual effects and input validation may be limited.  
 
-For the best experience and animation effects, we recommend using **Chrome 100+ / Safari 15+ / Edge 100+**.
+Recommended browsers for the best experience and animations: **Chrome 100+ / Safari 15+ / Edge 100+**.  
 
-⚠️  Tip: This report applies to "Ver. 8.1.1" and earlier versions, and does not guarantee accuracy regarding compatibility with subsequent versions!
+⚠️ Warning: This report applies to version "Ver.8.1.0" and earlier. Compatibility with later versions is **not guaranteed**.
