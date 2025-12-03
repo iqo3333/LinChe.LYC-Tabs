@@ -31,7 +31,9 @@ Cross-platform support: Whether on PC, tablet, or mobile, you’ll get the same 
 
 Start using LinChe.LYC now, say goodbye to tedious operations, and enjoy a smooth and convenient internet surfing experience!
 
-📌 Visit the preview page "https://tab.iqo3333.cn/en" 🔗
+📌 Visit the preview page "https://tab.iqo3333.cn/en" 
+
+🛠️ Access the Btea test page "https://tab.iqo3333.cn/Beta"
 
 🔗 Compatibility Specification Table"https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/en.md" 
 
