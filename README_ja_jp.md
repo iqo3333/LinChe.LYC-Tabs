@@ -31,7 +31,9 @@
 
 さあ、LinChe.LYC-タブを今すぐ使って、煩雑な操作にさよならし、便利なネットサーフィンを楽しみましょう！
 
-📌 プレビューサイトはこちら "https://tab.iqo3333.cn/ja_jp" 🔗
+📌 プレビューサイトはこちら "https://tab.iqo3333.cn/ja_jp" 
+
+🛠️ にアクセスするBteaテストページ "https://tab.iqo3333.cn/Beta"
 
 🔗 互換性仕様表"https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/ja_jp.md" 
 
