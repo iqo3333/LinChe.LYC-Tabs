@@ -30,7 +30,9 @@
 
 지금 바로 LinChe.LYC-탭을 사용해 보세요. 번거로운 조작은 그만두고, 편리한 인터넷 서핑을 즐기세요!
 
-📌 미리보기 페이지 방문 "https://tab.iqo3333.cn/ko_kr" 🔗
+📌 미리보기 페이지 방문 "https://tab.iqo3333.cn/ko_kr"
+
+🛠️ 접속Btea 테스트 페이지 "https://tab.iqo3333.cn/Beta" 
 
 🔗 호환성 사양표"https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/kr_ko.md" 
 
