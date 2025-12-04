@@ -1,4 +1,4 @@
-# LinChe.LYC-Tabs A Simple and Fast Way to Access Domains!
+# LinChe.LYC-Tabs Clean and beautiful tabs.!
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
