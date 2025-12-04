@@ -1,4 +1,4 @@
-# LinChe.LYC-탭 간단하고 빠른 도메인 접근 방식!
+# LinChe.LYC-탭 깔끔하고 아름다운 탭!
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en.md">🇺🇸English</a> | 
