@@ -1,4 +1,4 @@
-# LinChe.LYC-標籤頁 簡單快捷的網域訪問方式！
+# LinChe.LYC-標籤頁 簡潔美觀的索引標籤！
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
