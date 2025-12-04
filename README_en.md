@@ -17,8 +17,6 @@ Enter a domain name: Type the domain you want to visit into the input box. Wheth
 
 Search engine (for keyword search only): Three search engines are built in (Bing, Google, Baidu). Of course, you can also add your own search engines if you like.
 
-Smart checking: We intelligently check the entered domain name to ensure validity and provide possible error hints to improve the experience.
-
 Fully open-source: If you know a bit about static websites, you can download my source code and modify it. However, you may not use it for profit!!!
 
 ✨ Features:
