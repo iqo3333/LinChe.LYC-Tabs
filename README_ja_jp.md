@@ -1,4 +1,4 @@
-# LinChe.LYC-タブ シンプルで素早いドメインアクセス方法！
+# LinChe.LYC-タブ シンプルで美しいタブ。！
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en.md">🇺🇸English</a> | 
