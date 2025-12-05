@@ -4,15 +4,23 @@
 
 为了保证功能和效果完整展示，最低支持的浏览器版本如下：
 
-| 功能                                            | Chrome | Edge (Chromium) | Safari | IE          |
-| --------------------------------------------- | :----: | :-------------: | :----: | :--------: |
-| ES6 语法 (`const/let`, 箭头函数, 模板字符串)             | <span style="color:green">✅ 49+</span> | <span style="color:green">✅ 15+</span> | <span style="color:green">✅ 10+</span> | <span style="color:red">❌ 不支持</span> |
-| Unicode 正则 (`\p{L}`, `\p{N}` 用于域名/关键词检测)      | <span style="color:green">✅ 64+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 12+</span> | <span style="color:red">❌ 不支持</span> |
-| `backdrop-filter` / `-webkit-backdrop-filter` | <span style="color:green">✅ 76+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:red">❌ 不支持</span> |
-| `will-change`                                 | <span style="color:green">✅ 36+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:orange">⚠️ 部分支持</span> |
-| Flex 布局                                     | <span style="color:green">✅ 29+</span> | <span style="color:green">✅ 12+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:orange">⚠️ 基本支持</span> |
-| MutationObserver                              | <span style="color:green">✅ 11+</span> | <span style="color:green">✅ 79+</span> | <span style="color:green">✅ 12+</span> | <span style="color:orange">⚠️ 部分支持</span> |
-| CSS 变量 (`var(--dynamic-text-color)`)        | <span style="color:green">✅ 49+</span> | <span style="color:green">✅ 15+</span> | <span style="color:green">✅ 9+</span>  | <span style="color:red">❌ 不支持</span> |
+### 浏览器兼容性
+
+| 功能                                               | Chrome       | Edge (Chromium) | Safari         | IE           |
+|--------------------------------------------------|--------------|-----------------|----------------|--------------|
+| **ES6 语法** (`const/let`, 箭头函数, 模板字符串)   | ✅ 49+        | ✅ 15+           | ✅ 10+          | ❌ 不支持     |
+| **Unicode 正则** (`\p{L}`, `\p{N}` 用于域名检测)  | ✅ 64+        | ✅ 79+           | ✅ 12+          | ❌ 不支持     |
+| **`will-change`**                                  | ✅ 36+        | ✅ 79+           | ✅ 9+           | ⚠️ 部分支持  |
+| **Flex 布局**                                      | ✅ 29+        | ✅ 12+           | ✅ 9+           | ⚠️ 基本支持  |
+| **`MutationObserver`**                              | ✅ 11+        | ✅ 79+           | ✅ 12+          | ⚠️ 部分支持  |
+| **背景视频（`<video>` 标签）**                     | ✅ 4+         | ✅ 12+           | ✅ 9+           | ❌ 不支持     |
+| **事件监听与 DOM 操作**                            | ✅ 49+        | ✅ 15+           | ✅ 10+          | ⚠️ 部分支持  |
+
+### 重点说明：
+1. **`will-change`**：在现代浏览器中得到支持，用于优化动画和过渡效果，但在 IE 中仅部分支持，表现可能有限。
+2. **视频背景**：`<video>` 标签的支持从 IE 9 起开始出现，但旧版 IE 不完全支持视频背景。
+3. **事件监听与 DOM 操作**：这些 JavaScript 功能在大多数现代浏览器中广泛支持，IE 对 `MutationObserver` 等功能的支持较差。
+
 
 ⚠️ 注意:
 
