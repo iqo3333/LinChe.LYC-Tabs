@@ -33,7 +33,7 @@
 
 🛠️ にアクセスするBteaテストページ "https://tab.iqo3333.cn/Beta"
 
-🔗 互換性仕様表"https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/ja_jp.md" 
+🔗 互換性仕様表 "[今すぐ見る（日本語）](https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/ja_jp.md)"
 
 アクセスできるか不安ですか？接続テストを試してください！
 
