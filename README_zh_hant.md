@@ -31,8 +31,6 @@
 
 📌 訪問預覽頁面 "https://tab.iqo3333.cn/zh_hant" 🔗
 
-🛠️ 訪問Btea測試頁面 "https://tab.iqo3333.cn/Beta"
-
 🔗 兼容性規格表"[立即查看(繁體中文)](https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/zh_hant.md)"
 
 不確定是否能訪問？試試連線測試吧！
