@@ -30,8 +30,6 @@
 
 📌 미리보기 페이지 방문 "https://tab.iqo3333.cn/ko_kr"
 
-🛠️ 접속Btea 테스트 페이지 "https://tab.iqo3333.cn/Beta" 
-
 🔗 호환성 사양표 "[지금 보기 (한국어)](https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/ko_kr.md)"
 
 접속이 안 될까 걱정되시나요? 연결 테스트를 해보세요!
