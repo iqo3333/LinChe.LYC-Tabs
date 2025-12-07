@@ -1,4 +1,4 @@
-# LinChe.LYC-Tabs Clean and beautiful tabs.!
+# MeTab NewTab  Clean and beautiful tabs.!
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README.md">🇨🇳简体中文</a> | 
@@ -10,7 +10,7 @@
 <hr>
 Are you still troubled by the cluttered tabs in your browser? Do you wish to quickly access or search your target websites? Now, I present to you a clean and simple tab page that makes everything easier!
 
-🔗 LinChe.LYC-Tab is a convenient and practical tool. Simply enter a domain name or keyword, and it will automatically redirect you to the target website or search the keyword using your chosen search engine. No complicated operations, just a few easy steps:
+🔗 MeTab NewTab is a convenient and practical tool. Simply enter a domain name or keyword, and it will automatically redirect you to the target website or search the keyword using your chosen search engine. No complicated operations, just a few easy steps:
 
 Enter a domain name: Type the domain you want to visit into the input box. Whether it's "example.com" or "https://example.com
 ", it will be recognized instantly.
