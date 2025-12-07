@@ -30,7 +30,7 @@
 
 📌 访问预览页面"https://tab.iqo3333.cn" 
 
-🔗 兼容性规格表"[立即查看(简体中文)](https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/zh_cn.md)" 
+🔗 兼容性规格表"[立即查看(简体中文)](https://github.com/iqo3333/MeTab-NewTab/blob/main/Compatibility%20Specification%20Table/zh_cn.md)" 
 
 不确定是否能访问？试试连接测试呢！
 
