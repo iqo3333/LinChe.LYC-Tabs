@@ -31,7 +31,7 @@ Start using LinChe.LYC now, say goodbye to tedious operations, and enjoy a smoot
 
 📌 Visit the preview page "https://tab.iqo3333.cn/en" 
 
-🔗 Compatibility Specification Table "[View Now (English)](https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/en.md)"
+🔗 Compatibility Specification Table "[View Now (English)](https://github.com/iqo3333/MeTab-NewTab/blob/main/Compatibility%20Specification%20Table/en.md)"
 
 Not sure if it works? Try the connection test!
 
