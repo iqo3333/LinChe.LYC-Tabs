@@ -1,4 +1,4 @@
-# MeTab 我的标签页  简约美观的标签页！ 
+# 林澈.LYC 标签页  简约美观的标签页！ 
 
 <p align="center" class="language" title="Language selection 语言选择">
   <a href="README_en.md">🇺🇸English</a> | 
@@ -10,7 +10,7 @@
 <hr>
 你还在为目前的标签页杂乱址而烦恼吗？是否希望能快速访问或搜索到目标网站？现在，我推出了一款简洁的标签页，帮你轻松搞定这一切！
 
-🔗 MeTab 我的标签页 是一款方便实用的工具，只需输入域名或关键词，它就会自动帮你跳转到目标网站或者在你所选择的搜索引擎内搜索关键词。无需复杂操作，简单几步即可完成：
+🔗 M林澈.LYC 标签页 是一款方便实用的工具，只需输入域名或关键词，它就会自动帮你跳转到目标网站或者在你所选择的搜索引擎内搜索关键词。无需复杂操作，简单几步即可完成：
 
 输入域名：在输入框中输入你想要访问的域名，无论是 "example.com" 还是 "https://example.com" 都可以轻松识别。
 
@@ -30,7 +30,7 @@
 
 📌 访问预览页面"https://tab.iqo3333.cn" 
 
-🔗 兼容性规格表"[立即查看(简体中文)](https://github.com/iqo3333/MeTab-NewTab/blob/main/Compatibility%20Specification%20Table/zh_cn.md)" 
+🔗 兼容性规格表"[立即查看(简体中文)](https://github.com/iqo3333/LinChe.LYC-Tabs/blob/main/Compatibility%20Specification%20Table/zh_cn.md)" 
 
 不确定是否能访问？试试连接测试呢！
 
