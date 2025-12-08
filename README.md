@@ -34,8 +34,8 @@
 
 不确定是否能访问？试试连接测试呢！
 
-测速："https://speed.iqo3333.cn"
+测试①："https://speed.iqo3333.cn"
 
-备用："https://iqo3333.github.io/speed"
+测试②："https://iqo3333.github.io/speed"
 
 © 林澈.LYC 2025. All Rights Reserved
