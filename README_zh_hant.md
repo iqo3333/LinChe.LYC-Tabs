@@ -39,4 +39,4 @@
 
 備用："https://iqo3333.github.io/speed"
 
-© LinChe.LYC 2025. All Rights Reserved
+© LinChe.LYC 2026. All Rights Reserved
