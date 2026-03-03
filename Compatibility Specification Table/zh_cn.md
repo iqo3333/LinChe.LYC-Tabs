@@ -1,6 +1,6 @@
 # 浏览器兼容性
 
-本网站基于 HTML5、CSS3、ES6 JavaScript 及部分高级 CSS 特性（如 `will-change`） 构建。
+本网站基于 HTML5、CSS3、ES6 JavaScript 及部分高级 CSS 特性（如`will-change`） 构建。
 
 为了保证功能和效果完整展示，最低支持的浏览器版本如下：
 
