@@ -1,6 +1,6 @@
 # 브라우저 호환성
 
-이 웹사이트는 HTML5, CSS3, ES6 JavaScript 및 일부 고급 CSS 기능(`will-change` 등)을 사용하여 구축되었습니다.
+이 웹사이트는 HTML5, CSS3, ES6 JavaScript 및 일부 고급 CSS 기능(`will-change`등)을 사용하여 구축되었습니다.
 
 기능과 효과를 완전히 표시하려면 최소 지원되는 브라우저 버전은 다음과 같습니다:
 
