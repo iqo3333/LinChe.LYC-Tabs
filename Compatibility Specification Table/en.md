@@ -25,4 +25,4 @@ To ensure full functionality and visual effects, the minimum supported browser v
 
 It is recommended to use **Chrome 100+ / Safari 15+ / Edge 100+** for the best experience and animation effects.
 
-⚠️ Note: This report is applicable to "Ver.9.0.0" and earlier versions and does not guarantee compatibility for subsequent versions!
+⚠️ Note: This report is applicable to "Ver.9.0.2" and earlier versions and does not guarantee compatibility for subsequent versions!
