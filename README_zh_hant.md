@@ -249,4 +249,5 @@ MeTab 基於現代 Web 技術構建。
 © 林澈 2026. All Rights Reserved.
 
 </p>
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2ac9df3d-d806-4c47-a9a9-2826cc71bc7a" />
+<img width="1600" height="850" alt="屏幕截图 2026-08-28 173936" src="https://github.com/user-attachments/assets/ec78a7d2-0ca0-40fe-8f90-5221a746f7f3" />
+
