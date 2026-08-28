@@ -1,11 +1,11 @@
 # MeTab – 簡約美觀，專注高效！
 
 <p align="center" class="language" title="Language selection 語言選擇">
-  <a href="README_en.md">English(※)</a> | 
-  <a href="README_ja_jp.md">日本語(※)</a> | 
-  <a href="README_zh_cn.md">简体中文</a> | 
-  <b>繁體中文</b> | 
-  <a href="README_ko_kr.md">한국어(※)</a>
+  <a href="README_en.md">🇺🇸English(※)</a> | 
+  <a href="README_ja_jp.md">🇯🇵日本語(※)</a> | 
+  <a href="README_zh_cn.md">🇨🇳简体中文</a> | 
+  <b>🇭🇰繁體中文</b> | 
+  <a href="README_ko_kr.md">🇰🇷한국어(※)</a>
 </p>
 
 <p align="center"><b>(※)表示該語言的簡介已停止更新！</b></p>
@@ -142,8 +142,8 @@ MeTab 不只屬於桌面。
 
 MeTab 支援：
 
--  簡體中文
--  繁體中文
+-  🇨🇳簡體中文
+-  🇭🇰繁體中文
 
 簡體與繁體頁面分別進行適配，讓文字呈現更加自然。
 
