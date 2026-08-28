@@ -1,11 +1,11 @@
 # MeTab – 簡約美觀，專注高效！
 
 <p align="center" class="language" title="Language selection 語言選擇">
-  <a href="README_en.md">🇺🇸English(※)</a> | 
-  <a href="README_ja_jp.md">🇯🇵日本語(※)</a> | 
-  <a href="README_zh_cn.md">🇨🇳简体中文</a> | 
-  <b>🇭🇰繁體中文</b> | 
-  <a href="README_ko_kr.md">🇰🇷한국어(※)</a>
+  <a href="README_en.md">English(※)</a> | 
+  <a href="README_ja_jp.md">日本語(※)</a> | 
+  <a href="README_zh_cn.md">简体中文</a> | 
+  <b>繁體中文</b> | 
+  <a href="README_ko_kr.md">한국어(※)</a>
 </p>
 
 <p align="center"><b>(※)表示該語言的簡介已停止更新！</b></p>
@@ -30,7 +30,7 @@ MeTab 是一款簡約、美觀且專注高效的瀏覽器新分頁。
 
 ## ✦ 關於 MeTab
 
-我們始終認為，一個好的新分頁不應該佔據你的注意力。
+我始終認為，一個好的新分頁不應該佔據你的注意力。
 
 它更應該像一張乾淨的紙、一扇透明的窗：
 
@@ -132,10 +132,6 @@ MeTab 不只屬於桌面。
 
 針對手機與平板裝置進行了適配，並支援：
 
-- 觸控操作
-- 雙擊縮放控制
-- 雙指捏合縮放控制
-- Safari 手勢控制
 - 行動端安全區域適配
 
 無論螢幕大小，都希望保持熟悉而自然的體驗。
@@ -146,8 +142,8 @@ MeTab 不只屬於桌面。
 
 MeTab 支援：
 
-- 🇨🇳 簡體中文
-- 🇭🇰 繁體中文
+-  簡體中文
+-  繁體中文
 
 簡體與繁體頁面分別進行適配，讓文字呈現更加自然。
 
